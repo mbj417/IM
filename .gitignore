@@ -1,0 +1,34 @@
+*.pyc
+.cache
+
+#IDEs
+.idea
+
+#Generated folders when building the deb package locally
+debian/osm-imdocs.install
+.eggs
+*egg-info
+*.gz
+osm_im
+osm_im_trees
+dists
+pool
+deb_dist
+dist
+osm-im-*.post*
+osm-imdocs-*.post*
+osm-imdocs_*.post*
+
+#Pyang and other tools' folders
+pyangbind
+pyang
+yang2swagger
+
+#YANG IETF files, retrieved from YANGmodels github
+models/yang/ietf-yang-types.yang
+models/yang/ietf-inet-types.yang
+
+#local stuff files that end in ".local" or folders called "local"
+*.local
+local
+
